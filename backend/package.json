@@ -7,7 +7,6 @@
     "node": "18.10.0"
   },
   "scripts": {
-    "dev": "nodemon server.js",
     "start": "node server.js",
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm start\"\"npm run client\""
