@@ -8,7 +8,9 @@
   },
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm start\"\"npm run client\""
   },
   "author": "shahriar Sajeeb",
   "license": "ISC",
