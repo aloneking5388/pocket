@@ -13,7 +13,7 @@ const DashboardHeader = () => {
     <div className="w-full h-[80px] bg-white shadow sticky top-0 left-0 z-30 flex items-center justify-between px-4">
       <div>
         <Link to="/">
-        <h1 className="text-[20px] font-bold text-gray-500">Easy For <span className="text-[#ff3848]">Poket</span> </h1>
+        <h1 className="text-[20px] font-bold text-gray-500">Easy For <span className="text-[#EA4886]">Poket</span> </h1>
         </Link>
       </div>
       <div className="flex items-center">
