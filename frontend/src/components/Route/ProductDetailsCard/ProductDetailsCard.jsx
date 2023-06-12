@@ -165,7 +165,7 @@ const ProductDetailsCard = ({ setOpen, data }) => {
                   </div>
                 </div>
                 <div
-                  className={`${styles.button} bg-[#ff4838] mt-6 rounded-[4px] h-11 flex items-center`}
+                  className={`${styles.button} bg-[#EA4886] mt-6 rounded-[4px] h-11 flex items-center`}
                   onClick={() => addToCartHandler(data._id)}
                 >
                   <span className="text-[#fff] flex items-center">

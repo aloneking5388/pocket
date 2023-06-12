@@ -198,7 +198,7 @@ const ProductDetails = ({ data }) => {
                   </div>
                 </div>
                 <div
-                  className={`${styles.button} bg-[#ff4838] !mt-6 !rounded !h-11 flex items-center`}
+                  className={`${styles.button} bg-[#EA4886] !mt-6 !rounded !h-11 flex items-center`}
                   onClick={() => addToCartHandler(data._id)}
                 >
                   <span className="text-white flex items-center">
@@ -376,7 +376,7 @@ const ProductDetailsInfo = ({
               </h5>
               <Link to="/">
                 <div
-                  className={`${styles.button} bg-[#ff4838] !rounded-[4px] !h-[39.5px] mt-3`}
+                  className={`${styles.button} bg-[#EA4886] !rounded-[4px] !h-[39.5px] mt-3`}
                 >
                   <h4 className="text-white">Visit Shop</h4>
                 </div>

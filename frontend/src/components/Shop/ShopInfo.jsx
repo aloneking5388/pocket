@@ -89,7 +89,7 @@ const ShopInfo = ({ isOwner }) => {
             <span className="text-white">Edit Shop</span>
           </div>
            </Link>
-          <div className={`${styles.button} bg-[#ff4838] !w-full !h-[42px] !rounded-[5px]`}
+          <div className={`${styles.button} bg-[#EA4886] !w-full !h-[42px] !rounded-[5px]`}
           onClick={logoutHandler}
           >
             <span className="text-white">Log Out</span>

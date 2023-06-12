@@ -100,7 +100,7 @@ const UserOrderDetails = () => {
               </h5>
             </div>
             {!item.isReviewed && data?.status === "Delivered" ?  <div
-                className={`${styles.button} bg-[#ff4838] text-[#fff]`}
+                className={`${styles.button} bg-[#EA4886] text-[#fff]`}
                 onClick={() => setOpen(true) || setSelectedItem(item)}
               >
                 Write a review
@@ -188,7 +188,7 @@ const UserOrderDetails = () => {
               ></textarea>
             </div>
             <div
-              className={`${styles.button} bg-[#ff4838] text-white text-[20px] ml-3`}
+              className={`${styles.button} bg-[#EA4886] text-white text-[20px] ml-3`}
               onClick={rating > 1 ? reviewHandler : null}
             >
               Submit
@@ -225,7 +225,7 @@ const UserOrderDetails = () => {
           <br />
            {
             data?.status === "Delivered" && (
-              <div className={`${styles.button} bg-[#ff4838] text-white`}
+              <div className={`${styles.button} bg-[#EA4886] text-white`}
               onClick={refundHandler}
               >Give a Refund</div>
             )
@@ -234,7 +234,7 @@ const UserOrderDetails = () => {
       </div>
       <br />
       <Link to="/">
-        <div className={`${styles.button} bg-[#ff4838] text-white`}>Send Message</div>
+        <div className={`${styles.button} bg-[#EA4886] text-white`}>Send Message</div>
       </Link>
       <br />
       <br />

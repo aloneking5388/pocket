@@ -56,7 +56,7 @@ const EventCard = ({ active, data }) => {
           <Link to={`/product/${data._id}?isEvent=true`}>
             <div className={`${styles.button} bg-[#d72dee] text-[#fff]`}>See Details</div>
           </Link>
-          <div className={`${styles.button} bg-[#ff4838] text-[#fff] ml-5`} onClick={() => addToCartHandler(data)}>Add to cart</div>
+          <div className={`${styles.button} bg-[#EA4886] text-[#fff] ml-5`} onClick={() => addToCartHandler(data)}>Add to cart</div>
         </div>
       </div>
     </div>

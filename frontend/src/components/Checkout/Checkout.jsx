@@ -135,7 +135,7 @@ const Checkout = () => {
         </div>
       </div>
       <div
-        className={`${styles.button} bg-[#ff4838] w-[150px] 800px:w-[280px] mt-10`}
+        className={`${styles.button} bg-[#EA4886] w-[150px] 800px:w-[280px] mt-10`}
         onClick={paymentSubmit}
       >
         <h5 className="text-white">Go to Payment</h5>

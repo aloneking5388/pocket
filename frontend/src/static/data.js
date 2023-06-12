@@ -632,15 +632,19 @@ export const navItems = [
   export const footerSupportLinks = [
     {
       name: "FAQ",
+      link: "/faq"
     },
     {
       name: "Reviews",
+      link: "/faq"
     },
     {
       name: "Contact Us",
+      link: "/faq"
     },
     {
       name: "Shipping",
+      link: "/faq"
     },
     {
       name: "Live chat",

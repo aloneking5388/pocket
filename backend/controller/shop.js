@@ -44,7 +44,7 @@ router.post("/create-shop", upload.single("file"), async (req, res, next) => {
 
     const activationToken = createActivationToken(seller);
 
-    const activationUrl = `https://easyforpocket.onrender.com/seller/activation/${activationToken}`;
+    const activationUrl = `https://easyforpocket.com/seller/activation/${activationToken}`;
 
     try {
       await sendMail({

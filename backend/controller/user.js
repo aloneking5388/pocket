@@ -40,7 +40,7 @@ router.post("/create-user", upload.single("file"), async (req, res, next) => {
 
     const activationToken = createActivationToken(user);
 
-    const activationUrl = `https://easyforpocket.onrender.com/activation/${activationToken}`;
+    const activationUrl = `https://easyforpocket.com/activation/${activationToken}`;
 
     try {
       await sendMail({
