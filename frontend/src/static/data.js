@@ -604,7 +604,8 @@ export const navItems = [
       name: "Store Locations",
     },
     {
-      name: "Our Blog",
+      name: "Become Seller",
+      link: "/shop-create"
     },
     {
       name: "Reviews",
@@ -616,7 +617,7 @@ export const navItems = [
       name: "Game & Video",
     },
     {
-      name: "Phone &Tablets",
+      name: "Phone & Tablets",
     },
     {
       name: "Computers & Laptop",
